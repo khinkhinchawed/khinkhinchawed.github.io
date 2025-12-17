@@ -4,14 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IDOL</title>
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--google font.com link-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+   <style>
+        table{
+            border-color: hsl(219, 46%, 65%);
+            text-align: center;
+        }
+        body{
+            background-color: #cfcdcd;
+        }
+        tr:hover{
+            background-color: hsl(240, 68%, 69%);
+            color:gainsboro;
+        }
+        #heart,#comment,#image,#user{
+            font-size:30px;
+        }
+        #heart{
+            margin:50px;
+            color:red;
+        }
+        #image{
+            color: #1e1e64;
+            margin:50px;
+        }
+        #comment{
+            color:darkblue;
+            margin:50px;
+        }
+        #user{
+            color:cornflowerblue;
+            margin:50px;
+        }
+        #ebox{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+a{
+    text-decoration:none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+a:link{
+    color:#1e1e64;
+}
+
+a:visited{
+    
+    color:black;
+}
+a:hover{
+    color:darkred;
+}
+a:active{
+    color:coral;
+}
+.exam{
+    border:2px crimson solid;
+    overflow:auto;
+    clear:left;
+    
+}
+.ru{
+    max-width: 200px;
+    max-height: 275px;
+}
+            
+    </style>
+     </head>
+    
 <body>
+   <!--header-->
     <h1 style="color:maroon" align="center">JACKIE CHAN</h1>
-    <nav align="center">
-        <a href="#D1" style="color:darkblue">Description</a>
-        <a href="#D2" style="color:darkblue">ROLE</a>
-        <a href="#D3"style="color:darkblue">MOVIE</a>
-        <a href="#D4"style="color:darkblue">ABOUT</a>
+    <!--nevigation bar-->
+    <nav align="right">
+        <a href="#D1" >Description</a>
+        <a href="#D2">ROLE</a>
+        <a href="#D3">MOVIE</a>
+        <a href="#D4">ABOUT</a>
         </nav>
         <br><br>
         <table border="1"cellspacing="0" cellpadding="25" align="center">
@@ -51,10 +129,15 @@
                 <td>Tuxedo</td>
                 
             </tr>
-            
-                
-        
         </table>
+        <!--end table-->
+        <i class="fa-solid fa-heart" id="heart"></i>
+        
+        <i class="fa-solid fa-image" id="image"></i>
+        <i class="fa-solid fa-comment" id="comment"></i>
+        <i class="fa-solid fa-user" id="user"></i>
+
+        <!--header with id link-->
         <h1 style=color:brown id="D1" align="center">Description</h1>
         <dl>
             <dt style="color:darkblue">Jackie Chan</dt>
@@ -86,12 +169,12 @@
             
         </dl>
         <div align="center">
-        <img src="../LINK/images/tuxedo.jpg" width="250" height="300" >
-        <img src="../LINK/rush hour.jpg" width="250" height="300">
-        <img src="../LINK/images/dm.jpg" width="250" height="300"><br>
+        <img src="../LINK/images/tuxedo.jpg" width="250" height="300" id="p1">
+        <img src="../LINK/rush hour.jpg" width="250" height="300" id="p1">
+        <img src="../LINK/images/dm.jpg" width="250" height="300" id="p1"><br>
         <img src="../LINK/images/spy.jpg" width="250" height="300">
-        <img src="../LINK/wim.jpg" width="250" height="300" >     
-        <img src="../LINK/images/math.jpg"   width="250" height="300">
+        <img src="../LINK/wim.jpg" width="250" height="300" id="p1" >     
+        <img src="../LINK/images/math.jpg"   width="250" height="300" id="p1">
         </div>
         <br><br>
         <div align="center">
@@ -102,12 +185,12 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IeP5E0VEcvg?si=0AiDZR8JTu5kQDgO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
-
+<div id="ebox">
         <h1 style="color:brown" align="center" id="D4">About</h1>
         <p>Jackie chan trained at China Drama Academy for ten years.The school was very strict-they trained 10-12 hours a day.He was taught martial arts,acting ,acrobatics,and discipline.</p><br>
         <quote>Jachie Chan said:"We were not allowed to cry.We were taught to be strong.</quote>
         <p>He never used a stunt double-he did all his own stunts.He broke bones,injured his head,back,legs,fingers many time.</p>
-
+</div>
         <h1 align="center" style="color:brown">His mindset</h1>
         <h3 align="center">Discipline</h2>
          <h3 align="center">Perseverance</h3>
@@ -116,9 +199,7 @@
             <tr>
                 <th>Year</th>
                 <th>Prize</th>
-
                 <th>Best Movie</th>
-                
         
             </tr>
             <tr>
@@ -151,11 +232,10 @@
           <textarea id="comment" name="comment"></textarea>
 
           </div>
+          <div class="exam">
+            <img src="../LINK/rush hour.jpg" class="ru">
+            The most recommended
+          </div>
 
-
-
-
-
-    
 </body>
 </html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        h1{
+            border:1px solid green;
+            font-size: medium;
+            position:static;
+        }
+        div.relative{
+            margin:30px;
+            border:2px solid chocolate;
+            left:10px;
+            width:120px;
+            position:relative;
+        }
+        .fixed{
+            margin-top: 10px;
+            border:2px solid blueviolet;
+            right:0;
+            bottom:0;
+            width:100px;
+            position:fixed;
+            
+        }
+        .parent {
+width:500px;
+height:500px;
+left:10px;
+position:relative;
+border:3px solid green;
+        }
+        .absolute{
+            width:100px;
+            width:150px;
+            height:250px;
+            border:2px solid brown;
+            right:5px;
+            bottom:5px;
+            position:absolute;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium excepturi ratione maxime esse eius dolor dolore consequatur, est numquam incidunt eligendi dolorum asperiores
+         quia rerum quaerat officiis illum fugit corrupti!</h1>
+    
+         <div class="relative">
+            This is relative.
+         </div>
+         <div class="fixed">
+            Lorem, ipsum dolor sit amet consectetur adipisicing 
+            elit. Amet ipsam cupiditate quam aperiam consequatur
+             delectus saepe. Illum a consectetur velit dolores ea
+              esse exercitationem. Dolor neque error ipsa laborum 
+              pariatur!
+         </div>
+
+         <div class="parent">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum voluptates itaque commodi cupiditate eligendi minus quam debitis beatae repellendus
+             saepe eos, nihil sit numquam provident tempora dicta, 
+             incidunt libero!
+         
+
+         <div class="absolute">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Corporis doloremque saepe blanditiis provident beatae maxime 
+             eum officiis cupiditate. Nesciunt nam minima ad est suscipit
+             numquam quae officiis illo aut beatae.
+         </div>
+         </div>
+</body>
+</html>

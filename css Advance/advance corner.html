@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            background-image: url(./phoo1.jpg);
+            width:250px;
+            height:100px;
+            padding:10px;
+            text-align: center;
+            border-radius: 5px 15px 20px 50px;
+            background-position: right top;
+            color:beige;
+        }
+        #sticker{
+            border:1px solid transparent;
+            padding:15px;
+            border-image:url(.)
+        }
+        .example{
+            height:400px;
+            padding:20px;
+            
+            background-image: url(./tulip.jpg),url(./blue.jpg);
+            background-position: left bottom;
+            background-repeat:no-repeat;
+        
+        }
+        div.eg{
+            border:1px solid palevioletred;
+            padding:5px;
+            height:250px;
+            width:70%;
+            background-image: url(./cat.jpg);
+            background-size: 150px;
+            background-repeat: no-repeat;
+            background-position:right bottom;
+        }
+        div.model1{
+            background-image: url(./hero.jpg);
+            height:700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        div.box1{
+            background-image: url(./phoo1.jpg);
+            height:550px;
+            background-repeat: no-repeat;
+            background-origin: padding-box;
+            border:3px solid green;
+        }
+        div.box2{
+            background-image: url(./cat.jpg);
+            height:400px;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+            border:3px solid brown;
+        }
+        div.box3{
+            background-image: url(./211e66eafe08087f6f235b271d3462ec.jpg);
+            height:500px;
+            background-repeat: no-repeat;
+            border:3px solid red;
+            background-origin: content-box;
+        }
+        .kc{
+            background-image: url(./blue.jpg);
+            border:1px solid red;
+            background-color: transparent;
+            padding:6px;
+            overflow:hidden;
+
+        }
+        .kkc{
+            color:rgb(176, 128, 128);
+            border:3px solid currentColor;
+            padding:10px;
+            box-shadow: 2px 4px 15px currentColor;
+        }
+
+        div.khin{
+            height:150px;
+            background-color: rgb(235, 169, 169);
+            background-image: linear-gradient(gray,rgb(235, 169, 169),rgb(110, 220, 232));
+        }
+        .multiple{
+            height:150px;
+            background-image:linear-gradient(to right,red,gray,pink,red,blue,yellow);
+        }
+        div.circle{
+            height:200px;
+            width:200px;
+            background-color: red;
+            background-image: conic-gradient(red,blue,green,gray,pink,rgb(35, 10, 14));
+            border-radius: 50%;
+        }
+        div.text_effect{
+            color:whitesmoke;
+            text-shadow: 2px 2px 4px #000000;
+}
+div.box_shadow{
+    width:150px;
+    height:75px;
+    border:1px solid rgb(114, 15, 32);
+    box-shadow: 1px 2px palevioletred;
+    transition:0.7s;
+}
+        
+        
+    </style>
+</head>
+<body>
+    <p>background-color border radius</p>
+    <div id="div1">Round</div>
+<br>
+    <div class="example">
+        <p>Happy happy happy</p>
+    </div>
+
+    <div class="eg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ipsum molestiae suscipit officiis excepturi, aspernatur facilis ipsam eaque? Ullam consequuntur earum fuga rem voluptates accusamus corrupti reprehenderit natus, asperiores blanditiis.</div>
+
+    <div class="model1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, porro harum. Obcaecati, rem architecto nulla nisi, sed delectus reprehenderit ratione, numquam hic accusantium voluptas. Cumque dolorem non eveniet voluptatem </div>
+
+    <h3>padding box</h3>
+    <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit asperiores amet modi in! Dolor cumque consectetur veniam mollitia dignissimos, iusto totam, quae laborum amet maxime accusantium odit, illum numquam officia.</div>
+
+    <h3>border box</h3>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio dicta harum unde velit aspernatur minima magni, soluta labore. Dolores nam aut eligendi deleniti non soluta perspiciatis dolorem, excepturi dolorum?</div>
+
+    <h3>content box</h3>
+    <div class="box3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure minima nihil at odio praesentium esse illo dolorem assumenda optio minus neque, quasi necessitatibus rerum sit facilis. Facere ullam qui numquam.</div>
+    <br><br>
+    <div class="kc">khin khin chaw</div>
+
+    <br><br>
+
+    <div class="kkc">khin chaw</div>
+<br><br>
+    <div class="khin"></div>
+<br><br>
+    <div class="multiple"></div>
+
+    <h1>Conic Pie with radius</h1>
+
+    <div class="circle"></div>
+
+   <div class="text_effect">khin khin</div>
+
+    </div>
+<br><br>
+    <div class="box_shadow">
+        Khin Khin Chaw
+    </div>
+</body>
+</html>

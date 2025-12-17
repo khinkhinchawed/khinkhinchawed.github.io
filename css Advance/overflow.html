@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow</title>
+    <style>
+      .text1 {
+        background-color: cadetblue;
+        border: 2px solid greenyellow;
+        padding: 5px;
+        width: 90%;
+        height: 90px;
+        overflow-x: scroll;
+      }
+
+      div.parent {
+        border: 2px solid rgb(2, 65, 2);
+      }
+
+      .parent img {
+        width: 17%;
+        margin-left: 5px;
+        margin-top: 5px;
+        float: right;
+      }
+      .parent2 {
+        float: left;
+        border: 2px solid black;
+      }
+      .child2 {
+        border: 2px solid rgb(123, 10, 230);
+        width: 400px;
+      }
+
+      .parent3 {
+        border: 2px solid crimson;
+        float: left;
+        margin: 10px;
+      }
+      .child3 {
+        border: 2px solid rgb(12, 176, 165);
+        width: 450px;
+        margin: 10px;
+        clear: left;
+      }
+      .clearn{
+        border:2px solid green;
+        padding:10px;
+
+      }
+      .clearn img{
+        float:right;
+        
+      }
+      .clearn::after {
+  content: "";
+  clear: both;
+  display: table;}
+    </style>
+  </head>
+
+  <body>
+    <p class="text1">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, alias
+      dolores. Perspiciatis laboriosam natus repellendus voluptatem, mollitia
+      sequi asperiores totam. Quo, a tempora commodi vel magnam corrupti
+      consectetur labore voluptate?Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Suscipit, sed iure laborum, possimus et est quibusdam
+      assumenda accusantium, tempore voluptas itaque pariatur. Quaerat,
+      voluptatem ea quos ullam non quibusdam quae!
+    </p>
+
+    <div class="parent">
+      <img src="./poo.jpg" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+        voluptatum, nemo modi aspernatur neque recusandae expedita dolore!
+        Tenetur sint consequatur porro ullam? Maiores, veritatis tenetur dolorem
+        adipisci quisquam consequatur sed?Lorem ipsum dolor, sit amet
+        consectetur adipisicing elit. Vitae suscipit dolorem dicta temporibus
+        doloremque. Assumenda fugit aut eligendi numquam eaque quas ullam ex?
+        Ducimus repellendus reiciendis, quam pariatur ut explicabo? Lorem ipsum
+        dolor sit amet consectetur, adipisicing elit. Maiores voluptatum, nemo
+        modi aspernatur neque recusandae expedita dolore! Tenetur sint
+        consequatur porro ullam? Maiores, veritatis tenetur dolorem adipisci
+        quisquam consequatur sed?Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Vitae suscipit dolorem dicta temporibus doloremque.
+        Assumenda fugit aut eligendi numquam eaque quas ullam ex? Ducimus
+        repellendus reiciendis, quam pariatur ut explicabo? Lorem ipsum dolor
+        sit amet consectetur, adipisicing elit. Maiores voluptatum, nemo modi
+        aspernatur neque recusandae expedita dolore! Tenetur sint consequatur
+        porro ullam? Maiores, veritatis tenetur dolorem adipisci quisquam
+        consequatur sed?Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Vitae suscipit dolorem dicta temporibus doloremque. Assumenda
+        fugit aut eligendi numquam eaque quas ullam ex? Ducimus repellendus
+        reiciendis, quam pariatur ut explicabo? Lorem ipsum dolor sit amet
+        consectetur, adipisicing elit. Maiores voluptatum, nemo modi aspernatur
+        neque recusandae expedita dolore! Tenetur sint consequatur porro ullam?
+        Maiores, veritatis tenetur dolorem adipisci quisquam consequatur
+        sed?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+        suscipit dolorem dicta temporibus doloremque. Assumenda fugit aut
+        eligendi numquam eaque quas ullam ex? Ducimus repellendus reiciendis,
+        quam pariatur ut explicabo?
+      </p>
+    </div>
+
+    <br /><br /><br />
+
+    <div class="parent2">INSIDE</div>
+    <div class="child2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nam,
+      dolor, totam quae alias maxime, aspernatur earum obcaecati eligendi ipsa
+      possimus quis praesentium beatae illum repudiandae facere aliquid saepe
+      quasi.
+    </div>
+
+    <div class="parent3">INSIDE 2</div>
+    <div class="child3">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident magni
+      reprehenderit incidunt mollitia ipsam expedita ea, aut et, a assumenda
+      tempore error eum ex laboriosam architecto repudiandae quisquam odio
+      voluptas.
+    </div>
+
+    <div class="clearn">
+      <img src="./211e66eafe08087f6f235b271d3462ec.jpg" style="width:100px;"/>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit iste
+        doloremque harum sunt iusto facilis nulla veritatis accusantium, labore
+        architecto. Obcaecati recusandae perferendis possimus ipsum corporis
+        dolor cupiditate. Labore, at!
+      </p>
+    </div>
+  </body>
+</html>

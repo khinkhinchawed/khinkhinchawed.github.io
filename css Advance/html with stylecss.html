@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html with style.css</title>
+<style>
+    form{
+        border-radius:4px ;
+        background-color: rgb(190, 193, 186);
+        padding:4px;
+    }
+    label{
+        display:block;
+    }
+
+    input[type=text],select{
+         width:99%;
+        margin:12px;
+        padding:8px 0;
+        display:inline-block;
+        
+        border:1px solid rgb(49, 30, 30);
+        border-radius: 4px;
+        box-sizing: border-box;
+
+    }
+
+    input[type=Submit]{
+         width:99%;
+        background-color: cadetblue;
+        padding:14px;
+      color:aliceblue;
+    
+        border:none;
+        border-radius: 5px;
+        margin:8px;
+    }
+      input[type=Submit]:hover{
+        background-color: rgb(52, 154, 118);
+      }
+     
+    
+</style>
+
+
+
+</head>
+<body>
+    <h1>THis is HTML FORM.</h1>
+<form>
+    
+
+    <form action="/action_page.php">
+       <label for="name" >NAME</label>
+       <input type="text" name="fname"  id="ffname" placeholder="First Name">
+
+       <label for="namee">Last Name</label>
+       <input type="text" name="lname" id="llname" placeholder="Last Name">
+
+<label for="country">Country</label>
+<select name="country" id="year">
+    <option value="myan">Myanmar</option>
+<option value="eng">English</option>
+<option value="fran">Franch</option>
+<option value="italy">Italy</option>
+
+
+
+</select>
+<input type="Submit" value="Submit">
+
+
+    </form>
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+</body>
+</html>

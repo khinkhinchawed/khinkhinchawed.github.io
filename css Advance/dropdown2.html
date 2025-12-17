@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        .overall{
+            float:right;
+        }
+        .over{
+            position:relative;
+           
+        }
+        div.nick{
+            display:none;
+            background-color:rgb(253, 243, 243);
+            color:rgb(160, 45, 24);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width:100px;
+            padding:5px;
+            box-shadow: -2px 4px 2px 2px rgb(107, 109, 112);
+        }
+        div.over:hover .nick{
+            display:block;
+        }
+
+.upcontent{
+    float:left;
+}
+div.Click{
+    position: relative;
+}
+div.hee{
+    display:none;
+    background-color: rgb(210, 224, 230);
+    color:rgb(3, 26, 46);
+    width:100px;
+    padding:8px;
+
+}
+.imageoverall{
+    right:0;
+
+}
+div.image1{
+    position:absolute;
+}
+div.image2{
+    display:none;
+    background-color: rgb(136, 206, 143,0.2);
+    z-index: 2;
+    width:100%px;
+    height:65%;
+    box-shadow: 2px 5px 2px 2px rgb(190, 241, 190);
+}
+div.imageoverall:hover .image2{
+    display:block;
+}
+
+    </style>
+</head>
+<body>
+    <h1>This is dropdown.</h1>
+    <div class="overall">
+        <div class="over">KHIN
+<div class="nick">khin</div>
+<div class="nick">khin</div>
+            <div class="nick">chaw</div>
+        </div>
+    </div>
+
+        <div class="imageoverall">
+            <div class="image1">
+            <img src="./peace.jpg" alt="peace" style="width:85px">
+            <div class="image2">
+                <img src="./peace.jpg"alt="peace1" style="width:150px;">
+                <div class="content">Peaceful space</div>
+            </div>
+        
+        </div>
+</body>
+</html>
